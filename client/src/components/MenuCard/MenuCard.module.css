@@ -1,0 +1,16 @@
+.cardBody {
+    background-color: #77C1E7;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.cardBody:hover {
+    background-color: #008FD1;
+    color: white;
+}
+.icon {
+    padding-right: 0.2rem;
+    filter: invert(0%);
+    transition: filter 0.3s ease;
+}
+.icon.hover {
+    filter: invert(100%);
+}

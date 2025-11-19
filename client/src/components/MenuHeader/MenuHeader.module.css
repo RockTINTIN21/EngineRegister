@@ -1,0 +1,25 @@
+.menuHeader{
+    background-color: #E2E2E2;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:black;
+}
+
+.btn{
+    background-color: #77C1E7;
+    border: none;
+    color: black;
+}
+.btn:hover>a{
+    color: white;
+}
+.btn:hover{
+    background-color: #008FD1;
+}
+.icon {
+    filter: invert(0%);
+
+}
+.icon.hover {
+    filter: invert(100%);
+}
